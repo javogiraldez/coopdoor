@@ -1,0 +1,6 @@
+alias opendoor='sudo /usr/bin/python2 /opt/coopdoor/coopdoor.py --direction open'
+alias closedoor='sudo /usr/bin/python2 /opt/coopdoor/coopdoor.py --direction close'
+alias checkdoor='sudo /usr/bin/python2 /opt/coopdoor/coopdoor.py --debug'
+alias next='systemctl list-timers coopdoor* | grep coopdoor | cut -f3 -d" " | cut -f1-2 -d: | sort'
+alias opentime='systemctl list-timers coopdoor-morning.timer | grep coopdoor | cut -f3 -d" " | cut -f1-2 -d:'
+alias closetime='systemctl list-timers coopdoor-evening.timer | grep coopdoor | cut -f3 -d" " | cut -f1-2 -d:'
