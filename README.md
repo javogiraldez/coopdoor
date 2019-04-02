@@ -20,6 +20,6 @@ Notable Files
 
 Todo
 ----
-- [ ] build setup.py
-- [ ] build timers.py
+- [ ] build setup.py#2
+- [ ] build timers.py#1
 - [ ] build camera snapshot process
